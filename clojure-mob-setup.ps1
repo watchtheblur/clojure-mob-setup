@@ -1,5 +1,5 @@
 # This script
-# iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/windows.ps1 | iex
+# iwr -useb https://raw.githubusercontent.com/watchtheblur/clojure-mob-setup/main/clojure-mob-setup.ps1 | iex
 
 #Requires -RunAsAdministrator
 
