@@ -9,7 +9,8 @@ cinst win-no-annoy
 cinst vscode
 cinst googlechrome
 cinst git 
-cinst notepadplusplus
+cinst notepad2-mod
+choco install anydesk.install
 
 # delete annoying Windows notification sounds
 Remove-Item -ErrorAction SilentlyContinue -Recurse HKCU:\AppEvents\Schemes
@@ -31,6 +32,5 @@ $ProgressPreference = 'SilentlyContinue'
 
 # Often fails because anydesk chocolate authoring is bad
 # check if this is true
-choco install anydesk.install
 # cinst beyondcompare
 # cinst git poshgit github-desktop
